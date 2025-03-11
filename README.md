@@ -17,5 +17,5 @@ Este proyecto es un sistema de votación en línea desarrollado con **HTML**, **
 Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local:
 
 1. **Clona el repositorio:**
- https://github.com/andresrodas17/Participaci-n-
+   (https://github.com/andresrodas17/Participaci-n-)
    
