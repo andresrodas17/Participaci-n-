@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Votación</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Imagen decorativa en la cabecera -->
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Votación" class="header-image">
+    <h1>Votación en Línea</h1>
+    <p>Selecciona tu opción preferida:</p>
+    <form id="voting-form">
+      <div class="options">
+        <label class="option">
+          <input type="radio" name="vote" value="opcion1">
+          <span class="checkmark"></span>
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Opción 1" class="option-image">
+          Opción 1
+        </label>
+        <label class="option">
+          <input type="radio" name="vote" value="opcion2">
+          <span class="checkmark"></span>
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Opción 2" class="option-image">
+          Opción 2
+        </label>
+        <label class="option">
+          <input type="radio" name="vote" value="opcion3">
+          <span class="checkmark"></span>
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Opción 3" class="option-image">
+          Opción 3
+        </label>
+      </div>
+      <button type="submit">Enviar Voto</button>
+    </form>
+    <div class="results">
+      <h2>Resultados</h2>
+      <div id="results-display">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Resultados" class="results-image">
+        <p>No hay votos registrados todavía.</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
